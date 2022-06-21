@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <!-- 打印sql日志 -->
+        <setting name="logImpl" value="STDOUT_LOGGING" />
+    </settings>
+
+    <!--定义别名-->
+    <typeAliases>
+        <!--<typeAlias type="com.itheima.domain.Account" alias="account"></typeAlias>-->
+        <package name="com.itheima.domain"></package>
+    </typeAliases>
+
+</configuration>
